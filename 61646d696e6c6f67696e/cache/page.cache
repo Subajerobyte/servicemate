@@ -1,0 +1,1669 @@
+		  
+		  <!-- start tat part--->
+                   <div class="row mt-3">
+					<div class="col-xl-6 col-md-6 text-primary" style="font-weight:bold">
+					<!--PLAN:<span style="background-color:#D7D7D7; color:#000000; padding:5px; border-radius:5px;">DIAMOND</span><BR>-->
+					Average TAT: <span id="tat">0</span> Hours
+					</div>
+                        <!--<div class="col-xl-6 col-md-6 ">
+                            <form method="post">
+							<div class="row">
+							
+							<div class="col-lg-6 col-6">
+                                <div class="form-group row" style="margin-bottom: 0rem;">
+                                   <div class="col-sm-12">
+                                    <input type="text"  id="reportrange"  name="reportrange" class="form-control"/>
+									</div>	
+                                </div>
+								</div>
+							
+								<div class="col-lg-6 col-6">
+								<div class="form-group row mb-2">
+								<div class="col-sm-6 mb-1 col-7">
+                                <button type="submit" name="submit" class="btn btn-success btn-block">GET INFO</button>
+								</div>
+								<div class="col-sm-6 mb-1 col-5">
+								<a href="dashboard.php" class="btn btn-primary btn-block">RESET</a>
+								</div>
+								</div>
+								</div>
+							</div>	
+								
+                            </form>
+
+                        </div>-->
+                    </div>
+					
+<!-- end tat part--->
+					<br>
+					
+					
+					
+					
+					
+                    <div class="row">
+						<div class="col-lg-12">
+						
+						
+						
+		
+						
+							<div class="row">
+                        		<script>document.getElementById("tat").innerHTML=" 107.73";</script>
+		
+		
+		
+		
+ 
+		
+	
+		<div class="col-lg-12 mb-4">
+			<div class="card shadow cardb" role="button" >
+				<div class="card-header py-2">
+    <div class="row align-items-center">
+	
+	
+        <div class="col-lg-3 col-md-3 col-3">
+			<form class="form-inline navbar-search" action="consigneeview.php" method="get">
+
+            <div class="input-group">
+                <input type="hidden" name="id" id="existsearchid"> <button class="btn btn-blue btn-md" ><b>Book Complaint</b></button>
+       
+        <!--<label style="font-size:15px"><b>Book Complaint </b></label>-->
+				
+                <input type="text" id="existsearch" name="existsearch1" class="form-control border-0 small" placeholder="Customer Name, Area, Mobile, etc..." aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-navb" type="submit">
+                        <i class="fas fa-search fa-sm"></i>
+                    </button>
+                </div>
+            </div>
+			
+</form>
+        </div>
+        <div class="col-lg-6 col-md-6 col-6 text-center">
+            <h6 style="color:#04121f; font-size:17px;" class="m-0"><b>Easy Profit - Post Sales Service CRM</b></h6>
+        </div>
+        <div class="col-lg-3 col-md-3 col-3 text-right">
+            
+			 <button class="btn btn-blue btn-md" onclick="location.href='callnew.php'"><b>Add New Customer</b></button>
+       
+        </div>
+    </div>
+</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">		
+				<!--<div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div> 
+				<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><span  class="mb-0 text-dark"><b>Service Calls</b></span></h5>
+				<p style="text-align: center;line-height:normal;"><a href="existingcon.php"><span  class="mb-0 text-dark"><b>New Call</b></span></a></p>
+				<p style="text-align: center;"><a href="callreportpage.php"><span  class="mb-0 text-dark"><b>Call Report</b></span></a></p>
+                </div>
+				<div class="number-box" style="background-color:#6cdade"> 
+                    <i class="fa fa-phone"></i>
+                   </div>     
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color5">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div>
+				<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="inhousedashboard.php"><span  class="mb-0 text-dark"><b>Carry In<br>Dashboard</b></span></a></h5>
+                </div>
+				<div class="number-box" style="background-color:#a2cef1"> 
+                    <i class="fa-solid fa-house"></i>
+                   </div>      
+                </div>
+              </div>
+            </div>
+          </div> -->
+		  <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div>
+				<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="inhousedashboard"><span  class="mb-0 text-dark"><b>Quotations</b></span></a></h5>
+				<p style="text-align: center;line-height:normal;"><a href="newquotationadd.php"><span  class="mb-0 text-dark"><b>New Quotation</b></span></a></p>
+				<p style="text-align: center; line-height:normal;"><a href="quotationpage.php" ><span  class="mb-0 text-dark"><b>View Quotations</b></span></a></p>
+                </div>
+				<div class="number-box" style="background-color:#eda0cf"> 
+                    <i class="fa fa-check"></i>
+                   </div>          
+                </div>
+              </div>
+            </div>
+          </div> 
+		  <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color3">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div>
+				<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><span  class="mb-0 text-dark"><b>Orders Status</b></span></h5>
+				<p style="text-align: center;line-height:normal;"><a href="exporttallyadd.php?noofconsignee=1&maxproduct=1&getsubmit=Submit"><span class="mb-0 text-dark"><b>New Order</b></span></a></p>
+			   	<p style="text-align: center;line-height:normal;"><a href="salereport.php"><span  class="mb-0 text-dark"><b>View Orders</b></span></a></p>
+                </div>
+				<div class="number-box" style="background-color:#b590e1"> 
+                    <i class="fas fa-file-alt"></i>
+                   </div>      
+                </div>
+              </div>
+            </div>
+          </div> 
+		  <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color4">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div>
+<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="generatepage.php"><span  class="mb-0 text-dark"><b>DC / E-INV / EWB</b></span></a></h5>
+                </div>
+				<br>		
+				<div>
+<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="#.php"><span  class="mb-0 text-dark"><b>Payments</b></span></a></h5>
+                </div>
+				<div class="number-box" style="background-color:#aeeba3"> 
+                    <i class="fas fa-file-alt"></i>
+                   </div>    
+                </div>
+              </div>
+            </div>
+          </div> 
+		 
+		  <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-color6">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex1 align-items-center text-center">
+				<div>
+<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="report.php"><span  class="mb-0 text-dark"><b>Analytical Report</b></span></a></h5>
+                </div>
+				<div class="number-box" style="background-color:#f59f9f"> 
+                    <i class="fa fa-bar-chart"></i>
+                   </div>  	
+				   <br>
+				   <!--<p style="text-align: center;"><a href="scrdetails.php"><span  class="mb-0 text-dark"><b>Call Report</b></span></a></p>  -->
+				<div>
+				<h5 style="font-size: 13px;font-weight: 800; margin-bottom: 5px;text-decoration: underline;"><a href="scrdetails.php"><span  class="mb-0 text-dark"><b>Call Report</b></span></a></h5>
+                </div>				   
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          </div>
+          </div>		
+</div>						
+</div>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-lg-6 mb-4">
+			<div class="card shadow cardb" role="button">
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Call Progress Statistics</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				
+				<div class="row ">
+	
+					  
+   <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv">
+				<div>
+		
+				
+					<a href="calls.php?status=Received"><span  class="mb-0 text-dark"><b>Total Received Calls</b></span></a>
+								<h4 class="my-1 text-info1 text-center" style="font-size:1.5em;">1</h4>
+								
+				
+				
+				<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>On-Site</b></span>-<span  class="mb-0 text-info1">1</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>Carry-In</b></span>-<span  class="mb-0 text-info1">0</span>
+				</div>
+				</div>
+				
+				</div>
+		<!--<div class="widgets-icons-info1 ms-auto" >
+		<i class="bx bxs-phone-incoming"></i>
+		</div>-->
+	</div>
+      </div>
+  </div>
+      <span class="tooltip1 callouts--top"> 												<b><span style="font-size:1.1em;">SC : 0 <br> OC :
+                                                    1<br></span></b>
+																								
+												<br><div class="row">
+												<div class="col-6">
+													<h6 class="text-info1 mt-3 mb-1">Carry-In</h6>
+													<span style="font-size:1em;">SC : 0 <br> OC :
+                                                    0<br></span></div>
+													<div class="col-6">
+													<h6 class="text-info1 mt-3 mb-1">On-Site</h6>
+													<span style="font-size:1em;">SC : 0 <br> OC :
+                                                    1<br></span>
+													</div>
+													</div>
+																									</span>
+    
+      </div>
+       
+	   
+        
+    <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv1">
+				<div>
+				<a href="calls.php?status=Assigned"><span  class="mb-0 text-dark"><b>Total Assigned Calls</b></span></a>
+								<h4 class="my-1 text-danger1 text-center" style="font-size:1.5em;">1</h4>
+								
+				<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>On-Site</b></span>-<span  class="mb-0 text-danger1">0</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>Carry-In</b></span>-<span  class="mb-0 text-danger1">0</span>
+				</div>
+				</div>
+				
+				</div>
+				<!--<div class="widgets-icons-danger1 ms-auto">
+		<i class="bx bxs-user-pin"></i>
+		</div>-->
+                 
+            </div>
+          </div>
+        </div> 
+      <span class="tooltip2 callouts--top"> 												<b><span style="font-size:1.1em;">SC : 0 <br> OC :
+                                                    2<br></span></b>
+																								
+												<br>
+													<div class="row"><div class="col-6"><h6 class="text-danger1 mt-3 mb-1">Carry-In</h6>
+													<span style="font-size:1em;">SC : 0 <br> OC :
+                                                    0<br></span></div>
+													<div class="col-6">
+													<h6 class="text-danger1 mt-3 mb-1">On-Site</h6>
+													<span style="font-size:1em;">SC : 0 <br> OC :
+                                                    0<br></span></div></div>
+																									</span>
+      </div>
+	 
+     
+   <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-success1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv2">
+			   <div>
+                  <a href="calls.php?status=0"><span  class="mb-0 text-dark"><b>Total Open Calls</b></span></a>
+				   <h4 class="my-1 text-success1 text-center" style="font-size:1.5em;">12</h4>
+				<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>On-Site</b></span>-<span  class="mb-0 text-success1">12</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>Carry-In</b></span>-<span  class="mb-0 text-success1">0</span>
+				</div>
+				</div>
+				   </div>
+				   <!--<div class="widgets-icons-success1 ms-auto" >
+		<i class="bx bxs-phone"></i>
+		</div>-->
+                                                
+				   
+            </div>
+          </div>
+        </div>
+		 <span class="tooltip3 callouts--top">
+		<b><span style="font-size:1.1em;">SC : 5 <br> OC : 7</span></b><br>			
+					<div class="row"><div class="col-12 text-center"><span style="font-size:0.75em;"><b>Today</b> <br>SC : 0 <br> OC : 1 </span></div><br>
+					<div class="col-12 text-center"><span style="font-size:0.75em;"> <b>Old</b> <br> SC : 5 <br> OC : 6 </span></div></div><br>
+					
+										<div class="row"><div class="col-6"><h6 class="text-success1 mt-3 mb-1">Carry-In</h6>
+					 <span style="font-size:1em;">SC : 0 <br> OC : 0</span><br>
+					<span style="font-size:0.75em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+					<span style="font-size:0.75em;"> <b>Old</b> <br>  SC : 0 <br> OC : 0 </span></div><br>
+					<div class="col-6"><h6 class="text-success1 mt-3 mb-1" >On-Site</h6> 
+					<span style="font-size:1em;">SC : 5 <br> OC : 7</span><br>
+					<span style="font-size:0.75em;"><b>Today</b><br>  SC : 0 <br> OC : 1 </span><br>
+					<span style="font-size:0.75em;"><b> Old</b> <br>SC : 5 <br> OC : 6 </span></div></div><br>
+						</span>	
+      </div>
+	  <!--
+	  			
+		
+		
+		
+		 <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+									<a href="wcalls.php"><span class="mb-0 text-dark"><b>Waiting for Approval</b></span></a>
+                   <h4 class="my-1 text-warning2">310</h4>
+				  
+                      
+ </div>
+				  <div class="widgets-icons-warning2 ms-auto">
+		<i class="bx bxs-message-rounded-check"></i>
+		</div>				
+                </div>
+              </div>
+            </div>
+          </div>		-->  
+		  <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="calls.php?status=1"><span  class="mb-0 text-dark"><b>Total Pending Calls</b></span></a>
+				   <h4 class="my-1 text-info2 text-center" style="font-size:1.5em;">3</h4> 
+				   
+				   	<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>On-Site</b></span>-<span  class="mb-0 text-info2">3</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>Carry-In</b></span>-<span  class="mb-0 text-info2">0</span>
+				</div>
+				</div>
+				</div>
+				<!--<div class="widgets-icons-info2 ms-auto" >
+		<i class="bx bxs-file-find"></i>
+		</div>-->
+				  
+				   </div>
+          </div>
+        </div>
+                <span class="tooltip4 callouts--top">  <b> <span style="font-size:1.1em;">SC : 3 <br> OC : 0</span> </b><br> 
+                                            
+					<div class="row"> <div class="col-6"><span style="font-size:0.75em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span></div><br>
+					<div class="col-6"><span style="font-size:0.75em;"><b>Old</b><br> SC : 3 <br> OC : 0 </span></div>
+										<div class="col-6">
+					<h6 class="text-info2 mt-3 mb-1">Carry-In</h6> 
+					<span style="font-size:1em;">SC : 0 <br> OC : 0</span> <br> 
+					<span style="font-size:0.75em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+					<span style="font-size:0.75em;"><b>Old</b><br> SC : 0 <br> OC : 0 </span>
+					</div>
+					<div class="col-6">
+					<h6 class="text-info2 mt-3 mb-1">On-Site</h6> 
+					<span style="font-size:1em;">SC : 3 <br> OC : 0</span> <br> 
+					<span style="font-size:0.75em;"><b>Today</b> <br> SC : 0 <br>OC : 0 </span><br>
+					<span style="font-size:0.75em;"><b>Old</b><br> SC : 3 <br> OC : 0 </span></div>
+																	</div>
+</span>		
+      </div>
+       <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv4">
+				<div>
+				  <a href="calls.php?status=2&lform=dashboard"><span  class="mb-0 text-dark"><b>Total Completed Calls</b></span></a>
+								<h4 class="my-1 text-danger2 text-center" style="font-size:1.5em;">0</h4>
+								
+				
+				<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>On-Site</b></span>-<span  class="mb-0 text-danger2">0</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark"><b>Carry-In</b></span>-<span  class="mb-0 text-danger2">0</span>
+				</div>
+				</div>
+				
+				</div>
+				<!--<div class="widgets-icons-danger2 ms-auto" >
+		<i class="bx bxs-badge-check"></i>
+		</div>-->
+		 </div>
+          </div>
+        </div>
+      <span class="tooltip5 callouts--top">	    
+                                           <b> <span style="font-size:1.1em;">SC : 0 <br> OC : 0</span></b><br>
+                                            
+											<div class="row"><div class="col"><span style="font-size:0.7em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span></div><br>
+											<div class="col"><span style="font-size:0.75em;"><b>Old</b><br> SC : 0 <br> OC : 0 </span></div></div><br>
+																								
+												<div class="row"><div class="col-6"><h6 class="text-danger2 mt-3 mb-1">Carry-In</h6> 
+											<span style="font-size:1em;">SC : 0 <br>OC : 0</span><br>
+											<span style="font-size:0.7em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+											<span style="font-size:0.75em;"><b>Old</b><br> SC : 0 <br> OC : 0 </span><br></div>
+											<div class="col-6"><h6 class="text-danger2 mt-3 mb-1">On-Site</h6> 
+											<span style="font-size:1em;">SC : 0 <br> OC : 0</span><br>
+											<span style="font-size:0.7em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+											<span style="font-size:0.75em;"><b>Old</b> <br> SC : 0 <br> OC : 0 </span><br></div></div>
+																																		</span>
+				  
+           
+      </div>
+		
+   <!--<div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-success2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv5">
+				<div>
+				  <a href="calls.php?status=3&lform=dashboard"><span  class="mb-0 text-dark"><b>Cancelled Calls</b></span></a>
+								<h4 class="my-1 text-success2">0</h4>
+								</div>
+				<div class="widgets-icons-success2 ms-auto" >
+		<i class="bx bxs-phone-off"></i>
+		</div>
+				   </div>
+          </div>
+        </div> 
+      <span class="tooltip6 callouts--top">					   												<b> <span style="font-size:1.1em;">SC : 0 <br> OC : 0</span></b><br>
+                                            
+											<div class="row"><div class="col-6"><span style="font-size:0.7em;"><b>Today </b> <br> SC : 0 <br> OC : 0 </span><br></div>
+											<div class="col-6"><span style="font-size:0.75em;"><b>Old </b><br> SC : 0 <br> OC : 0 </span><br></div></div>
+																								
+												<div class="row"><div class="col-6"><h6 class="text-success2 mt-3 mb-1">Carry-In</h6> 
+											<span style="font-size:1em;">SC : 0 <br>OC : 0</span><br>
+											<span style="font-size:0.7em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+											<span style="font-size:0.75em;"><b>Old</b><br> SC : 0 <br> OC : 0 </span><br></div>
+											<div class="col-6">
+											<h6 class="text-success2 mt-3 mb-1">On-Site</h6> 
+											<span style="font-size:1em;">SC : 0 <br> OC : 0</span><br>
+											<span style="font-size:0.7em;"><b>Today</b> <br> SC : 0 <br> OC : 0 </span><br>
+											<span style="font-size:0.75em;"><b>Old</b> <br> SC : 0 <br> OC : 0 </span><br></div></div>
+																																		</span>
+				  
+           
+      </div>-->
+	  
+	  
+   <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+									<a href="ocalls.php"><span class="mb-0 text-dark" ><b>Total Observation Calls</b></span></a>
+				  <h4 class="my-1 text-warning1 text-center" style="font-size:1.5em;">53</h4>
+				  
+                  				 </div>
+				<!--  <div class="widgets-icons-warning1 ms-auto">
+		<i class="bx bxs-phone-call"></i>
+		</div>-->
+             </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+      </div>
+		
+	</div>
+</div>
+	
+						
+						
+
+
+	<!--<div class="col-lg-2 mb-4">
+			<div class="card shadow cardb" role="button" >
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0   text-center"><b>AMC & WTY</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">
+						
+
+			
+		<div class="col-xl-12 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-express1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv10">
+				<div>
+               				<a href="amccustomers.php"><span  class="mb-0 text-dark"><b>AMC <BR>Customers</b></span></a>
+				
+                  <h4 class="mb-2 text-express1">62</h4>
+                   
+                                  </div><div class="widgets-icons-express1 ms-auto" >
+		<i class="bx bxs-user-check"></i>
+		</div>
+              </div>
+            </div>
+          </div><span class="tooltip11 callouts--top"> <span style="font-size:1em;">Products : 69</span><br>
+                  <span style="font-size:1em;">AMC Denied : 2</span></span>
+		  </div>
+
+
+                        		<div class="col-xl-12 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-express2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv11">
+				<div>
+								<a href="warrantycustomers.php"><span class=" mb-0 text-dark" style="color:#3d8eb9; "><b>Warranty Customers</b></span></a>
+                  <h4 class="mb-2 text-express2">1552</h4>
+                
+                  				 </div>
+				 <div class="widgets-icons-express2 ms-auto" >
+		<i class="bx bxs-award"></i>
+		</div>
+              </div>
+            </div>
+          </div>
+		   <span class="tooltip12 callouts--top"> <span style="font-size:1em;">Products : 3020</span></span>
+		</div>
+   
+
+
+</div>
+</div>
+</div>
+</div> -->
+<!--col 2-->
+
+									
+														
+		<div class="col-lg-3 mb-4">
+			<div class="card shadow cardb" role="button" >
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Co-Ordinator Dashboard</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">		
+				  <!--<div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-pink1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv">
+				<div>
+				<a href="#.php"><span  class="mb-0 text-dark"><b>Assigning Status</b></span></a>
+				</div><div class="widgets-icons-pink1 ms-auto" >
+		<i class="bx bxs-package"></i>
+		</div>
+	</div>
+      </div>
+  </div>
+      </div>-->
+      <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-express2">
+            
+					 <div class="card shadow mb-2">
+                <div class="card-header py-1">
+                    <a class="m-0 text-dark"><b>Engineer's Call Request</b>
+												</a>
+                </div>
+                <div class="card-body">
+									  <marquee width="100%" direction="up" height="226px" scrollamount="3" onmouseover="this.stop();"
+                        onMouseOut="this.start();">
+                        <ul class="todo-list ui-sortable drag-me">
+                                                    </ul>
+                    </marquee>
+                  
+                                  </div>
+				
+            </div>
+					</div>
+				
+            </div>
+					
+		 		<div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-pink1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+									<a href="alertpreventive.php"><span class="mb-0 text-dark" ><b>Warranty <br>Maintenance</b></span></a>
+                  <h4 class="mb-2 text-pink1">27233</h4> 
+                
+                  </div>
+				<div class="widgets-icons-pink1 ms-auto" >
+		<i class="bx bxs-calendar-check"></i>
+		</div>
+				              
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-pink1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv">
+				<div>
+				<a href="mapengineerda.php"><span  class="mb-0 text-dark"><b>Engineer Performance Report</b></span></a>
+				</div><div class="widgets-icons-pink1 ms-auto" >
+		<i class="bx bxs-package"></i>
+		</div>
+	</div>
+      </div>
+  </div>
+      </div>
+         
+		<!--  <div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+				
+					<a href="alertpreventive.php"><span class="mb-0 text-dark" ><b>Average <br>TAT</b></span></a>
+                  <h4 class="mb-2 text-warning1">27233</h4> 
+                
+                  
+				</div>
+				<div class="widgets-icons-warning1 ms-auto" >
+		<i class="bx bxs-calendar-check"></i>
+		</div>
+				              
+                </div>
+              </div>
+            </div>
+          </div>
+		  <div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+				
+					<a href="alertpreventive.php"><span class="mb-0 text-dark" ><b>Notifications</b></span></a>
+                  <h4 class="mb-2 text-danger2">27233</h4> 
+                
+                  </div>
+				<div class="widgets-icons-danger1 ms-auto" >
+		<i class="bx bxs-calendar-check"></i>
+		</div>
+				              
+                </div>
+              </div>
+            </div>
+          </div>-->
+		    <!-- <div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div> 
+                <a href="mapcustomers.php"><span class="mb-0 text-dark"><b>Customer Population Map</b></span></a>
+			</div>
+				<div class="widgets-icons-info2 ms-auto" >
+		<i class="bx bxs-map-pin"></i>
+		</div>
+				              
+                </div>
+              </div>
+            </div>
+          </div>-->
+		 <!--  <div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-express2">
+            
+				<!--callreq-->
+					
+					<!-- <div class="card shadow mb-2">
+                <div class="card-header py-1">
+                    <a class="m-0 text-dark"><b>Engineer's Call Request</b>
+												</a>
+                </div>
+                <div class="card-body">
+									  <marquee width="100%" direction="up" height="226px" scrollamount="3" onmouseover="this.stop();"
+                        onMouseOut="this.start();">
+                        <ul class="todo-list ui-sortable drag-me">
+                                                    </ul>
+                    </marquee>
+                  
+                                  </div>
+				
+            </div>-->
+					
+					
+					
+				<!--callreq-->
+				
+				
+				
+				          
+		
+		  
+        
+					
+					
+	  
+	 <!-- <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-green1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" >
+				<div>
+									<a href="alertamcexpire.php"><span class="mb-0 text-dark" ><b>AMC <br>Expiry</b></span></a>
+				   <h4 class="mb-2 text-green1">310</h4> 
+                  </div>
+				<div class="widgets-icons-green1 ms-auto" >
+		<i class="bx bxs-pie-chart"></i>
+		</div>
+				
+				
+				                
+                </div>
+              </div>
+            </div>
+          </div>
+		
+	  
+	  <div class="col-xl-3 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-pink2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" >
+				<div>
+									<a href="alertwarrantyexpire.php"><span class="mb-0 text-dark" style="color:#3d8eb9;"><b>Warranty <br>Expiry</b></span></a>
+                  <h4 class="mb-2 text-pink2">2691</h4> 
+                  				</div>
+				<div class="widgets-icons-pink2 ms-auto" >
+		<i class="bx bxs-pie-chart-alt"></i>
+		</div>
+				
+				                
+                </div>
+              </div>
+            </div>
+          </div>-->
+		  
+	 
+	  
+	  
+				
+					 <!--<div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="currentlocation.php"><span  class="mb-0 text-dark"><b>Available Engineer - Nearby the Customer Location</b></span></a>
+				   
+				   </div>
+				<div class="widgets-icons-danger1 ms-auto" >
+		<i class="bx bxs-location-plus"></i>
+		</div>
+				  
+				   </div>
+          </div>
+        </div>
+               
+      </div> -->
+	  
+        <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-green2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+									<a href="alertamcmaintenance.php"><span class="mb-0 text-dark" style="color:#3d8eb9;"><b>AMC <br>Maintenance</b></span></a>
+					<h4 class="my-1 text-green2">651</h4>
+                  				</div>
+				<div class="widgets-icons-green2 ms-auto" >
+		<i class="bx bxs-calendar"></i>
+		</div>
+		</div>
+              </div>
+            </div>
+          </div> 
+		
+		  
+	 
+	  
+	  
+		
+</div>						
+</div>						
+</div>						
+</div>		
+
+<div class="col-lg-3 mb-4">
+			<div class="card shadow cardb" role="button" >
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Profit Alerts</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">		
+								
+        <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv1">
+				<div>
+				<a href="warrantycustomers.php"><b><span  class="mb-0 text-dark">Warranty Ending Soon - </span><span  class="mb-0 text-success">Act Now</span></b></a>
+				<h4 class="my-1 text-danger1">302</h4>
+				</div>
+				<div class="widgets-icons-danger1 ms-auto" >
+		<i class="bx bxs-layer-minus"></i>
+		</div>
+		
+            </div>
+          </div>
+        </div> 
+      </div>
+	 <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv4">
+				<div>
+				  <a href="amcgoingtoexpirecustomers.php"><b><span  class="mb-0 text-dark">AMC Ending Soon - </span><span  class="mb-0 text-success">Act Now</span></b></a>
+				  <h4 class="my-1 text-danger2">1</h4>
+				</div>
+				<div class="widgets-icons-danger2 ms-auto" >
+		<i class="bx bxs-layer-minus"></i>
+		</div>
+		 </div>
+          </div>
+        </div>
+     
+				  
+           
+      </div>
+	  			
+		
+		
+		
+		 <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+									<a href="wcalls.php"><span class="mb-0 text-dark"><b>Waiting for Approval</b></span></a>
+                   <h4 class="my-1 text-warning2">310</h4>
+				  
+                      
+ </div>
+				  <div class="widgets-icons-warning2 ms-auto">
+		<i class="bx bxs-message-rounded-check"></i>
+		</div>				
+                </div>
+              </div>
+            </div>
+          </div>		
+		  
+		<!--  <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+					<a href="revenue.php"><span class="mb-0 text-dark"><b>Serv / AMC Income (₹)</b></span></a>
+							
+		<h6 class="my-1 text-warning2">18046 / 0</h6>
+		
+ </div>
+				  <div class="widgets-icons-warning2 ms-auto">
+		<i class="bx bxs-message-rounded-check"></i>
+		</div>				
+                </div>
+              </div>
+            </div>
+          </div>	-->	
+		
+	  		
+	  
+	  <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+					<a href="productlifetimeexpire.php?datefrom=2024-05-01&dateto=2024-05-31"><span class="mb-0 text-dark"><b>Product Lifetime Expiry</b></span></a>
+				<h4 class="my-1 text-warning2">0</h4>
+				  	
+		
+ </div>
+				  <div class="widgets-icons-warning2 ms-auto">
+		<i class="bx bxs-message-rounded-check"></i>
+		</div>				
+                </div>
+              </div>
+            </div>
+          </div>
+		
+</div>						
+</div>						
+</div>						
+</div>		
+					
+</div>						
+</div>			
+
+
+
+				
+ 
+<!--- customer and engineer -->
+		
+						<script>document.getElementById("tat").innerHTML=" 107.73";</script>
+		
+<div class="col-lg-6 mb-3">
+<div class="card shadow cardb" role="button">
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Carry-In Call Progress</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">
+	
+   <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+				<a href="inhousecalls.php?call=received"><span  class="mb-0 text-dark"><b>Received  Calls</b></span></a>
+                				<h4 class="my-1 text-info1 text-center" style="font-size:1.5em;">0</h4>
+
+				
+				
+                </div>  
+				<!--<div class="widgets-icons-info1 ms-auto" >
+				<i class="bx bxs-phone-incoming"></i>
+				</div>-->		
+																								
+													 <!--span style="font-size:1em;">SC :  <br> OC :
+                                                    <br></span--> 
+																									            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+				<a href="inhousecalls.php?call=received"><span  class="mb-0 text-dark"><b>Awaiting Calls</b></span></a>
+                				<h4 class="my-1 text-info1 text-center" style="font-size:1.5em;">0</h4>
+                </div>  
+				<!--<div class="widgets-icons-info1 ms-auto" >
+				<i class="bx bxs-phone-incoming"></i>
+				</div>	-->			
+																								
+													 <!--span style="font-size:1em;">SC :  <br> OC :
+                                                    <br></span--> 
+																									            </div>
+          </div>
+        </div>
+      </div>
+	   <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div>
+				<a href="inhousecalls.php?call=assinged"><span  class="mb-0 text-dark"><b>Assigned Calls</b></span></a>
+                  					<h4 class="my-1 text-danger1 text-center" style="font-size:1.5em;">0</h4>
+																								
+												 <!--span style="font-size:1.1em;">SC :  <br> OC :
+                                                    <br></span-->
+																		              </div>
+			 <!-- <div class="widgets-icons-danger1 ms-auto" >
+				<i class="bx bxs-user-pin"></i>
+				</div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDivopen">
+				<div>
+                  <a href="inhousecalls.php?status=0"><span  class="mb-0 text-dark"><b>Open Calls</b></span></a>
+				   <h4 class="my-1 text-warning1 text-center" style="font-size:1.5em;">0</h4>
+				   
+				   
+				   <div class="row">
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>Inhouse</b></span>-<span  class="mb-0 text-warning1">0</span>
+				</div>
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>OEM</b></span>-<span  class="mb-0 text-warning1">0</span>
+				</div>
+				</div>
+				  </div> 
+				 <!-- <div class="widgets-icons-warning1 ms-auto" >
+		<i class="bx bxs-phone"></i>
+		</div>-->
+		</div>
+            </div>
+          </div>
+		  
+		 
+		  
+										 <!--span style="font-size:1.1em;">SC :  <br> OC : </span><br>-->	
+					 <span class="tooltipopen callouts--top">				
+					<span style="font-size:1em;"><b>Today :</b> 0 </span><br>
+					<span style="font-size:1em;"> <b>Old :</b> 0 </span><br>
+					
+					<div class="row">
+												<div class="col-6">
+													<h6 class="text-warning1 mt-3 mb-1">Inhouse</h6>
+													0 </div>
+													<div class="col-6">
+													<h6 class="text-warning1 mt-3 mb-1">OEM</h6>
+													<span style="font-size:1em;">0 </span>
+													</div>
+													</div>
+													</span>
+																								
+              
+      </div>
+	  
+     <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDivpend">
+			  <div>
+                  <a href="inhousecalls.php?status=1"><span  class="mb-0 text-dark"><b>Pending Calls</b></span></a>
+				  <h4 class="my-1 text-info2 text-center" style="font-size:1.5em;">0</h4>   
+				 
+				 
+				 <div class="row">
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>Inhouse</b></span>-<span  class="mb-0 text-info2">0</span>
+				</div>
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>OEM</b></span>-<span  class="mb-0 text-info2">0</span>
+				</div>
+				</div>
+				</div>
+				 <!--<div class="widgets-icons-info2 ms-auto" >
+		<i class="bx bxs-file-find"></i>
+		</div>-->
+            </div>
+          </div>
+        </div>		
+									 
+					<!--span style="font-size:1em;">SC :  <br> OC : </span> <br--> 
+					 <span class="tooltippend callouts--top">
+					<span style="font-size:1em;"><b>Today :</b>  0 </span><br>
+					<span style="font-size:1em;"><b>Old :</b> 0 </span><br>
+					
+					<div class="row">
+												<div class="col-6">
+													<h6 class="text-info2 mt-3 mb-1">Inhouse</h6>
+													0 </div>
+													<div class="col-6">
+													<h6 class="text-info2 mt-3 mb-1">OEM</h6>
+													<span style="font-size:1em;">0 </span>
+													</div>
+													</div></span>
+					             
+      </div>
+     <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDivcomp">
+			<div>
+                   <a href="inhousecalls.php?status=2&lform=dashboard"><span class="mb-0 text-dark"><b>Completed Calls</b></span></a>
+				    
+					<h4 class="my-1 text-danger2 text-center" style="font-size:1.5em;">0</h4>
+										
+					
+					<div class="row">
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>Inhouse</b></span>-<span  class="mb-0 text-danger2" >0</span>
+				</div>
+				<div class="col-12 text-center">
+				<span  class="mb-0 text-dark "><b>OEM</b></span>-<span  class="mb-0 text-danger2" >0</span>
+				</div>
+				</div>
+            </div>
+			<!--<div class="widgets-icons-danger2 ms-auto" >
+		<i class="bx bxs-badge-check"></i>
+		</div>-->
+          </div>
+        </div>
+        </div>
+																							<!--span style="font-size:1em;">SC :  <br>OC : </span><br-->
+											<span class="tooltipcomp callouts--top">
+											<span style="font-size:1em;"><b>Today :</b> 0 </span><br>
+											<span style="font-size:1em;"><b>Old :</b> 0 </span> <br>
+					
+					<div class="row">
+												<div class="col-6">
+													<h6 class="text-danger2 mt-3 mb-1">Inhouse</h6>
+													0 </div>
+													<div class="col-6">
+													<h6 class="text-danger2 mt-3 mb-1">OEM</h6>
+													<span style="font-size:1em;">0 </span>
+													</div>
+													</div></span>
+																							
+             
+      </div>
+		 <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDivdeli">
+				<div>
+                   <a href="inhousecalls.php?status=3&lform=dashboard"><span  class="mb-0 text-dark"><b>Delivered Calls</b></span></a>
+				  
+											 <h4 class="my-1 text-warning2 text-center" style="font-size:1.5em;">0</h4>
+                                            											
+											
+											<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>Inhouse</b></span>-<span  class="mb-0 text-warning2">0</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>OEM</b></span>-<span  class="mb-0 text-warning2">0</span>
+				</div>
+				</div>
+											
+											 </div>
+		<!--<div class="widgets-icons-warning2 ms-auto" >
+		<i class="bx bxs-phone-off"></i>
+		</div>-->
+			 </div>
+            </div>
+          </div>
+													<!--span style="font-size:1em;">SC :  <br> OC : </span><br-->
+											<span class="tooltipdeli callouts--top">
+											<span style="font-size:1em;"><b>Today :</b> 0 </span><br>
+											<span style="font-size:1em;"><b>Old :</b> 0</span><br>
+					
+					<div class="row">
+												<div class="col-6">
+													<h6 class="text-warning2 mt-3 mb-1">Inhouse</h6>
+													0 </div>
+													<div class="col-6">
+													<h6 class="text-warning2 mt-3 mb-1">OEM</h6>
+													<span style="font-size:1em;">0 </span>
+													</div>
+													</div></span>
+																							
+          
+      </div>
+		 <div class="col-xl-3 col-sm-6 mb-3 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+			   <div class="d-flex align-items-center" id="myDivawait">
+            <div class="card-body" style="padding-right:0.2rem">
+				<div>
+                   <a href="#"><span  class="mb-0 text-dark"><b>Awaiting Confirmation</b></span></a>
+				  
+											 <h4 class="my-1 text-warning2 text-center" style="font-size:1.5em;">0</h4>
+                                            											
+											
+											<!--<div class="row">
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>Inhouse</b></span>-<span  class="mb-0 text-info1">1</span>
+				</div>
+				<div class="col-12 text-center">
+								<span  class="mb-0 text-dark "><b>OEM</b></span>-<span  class="mb-0 text-info1">0</span>
+				</div>
+				</div>-->
+											
+											 </div>
+											<!--<div class="widgets-icons-warning2 ms-auto" >
+		<i class="bx bxs-phone-off"></i>
+		</div>-->
+			 </div>
+            </div>
+          </div>
+													<!--span style="font-size:1em;">SC :  <br> OC : </span><br-->
+											<!--<span class="tooltipawait callouts--top">
+											<span style="font-size:1em;"><b>Today :</b> 0 </span><br>
+											<span style="font-size:1em;"><b>Old :</b> 0</span><br>
+					
+					<div class="row">
+												<div class="col-6">
+													<h6 class="text-info1 mt-3 mb-1">Inhouse</h6>
+													0 </div>
+													<div class="col-6">
+													<h6 class="text-info1 mt-3 mb-1">OEM</h6>
+													<span style="font-size:1em;">0 </span>
+													</div>
+													</div></span>-->
+																							
+          
+      </div>
+		
+	</div>
+</div>
+</div>	
+</div>		
+		
+						
+						
+				 
+						
+	<div class="col-lg-3">
+	
+	
+	<div class="card shadow cardb" role="button">
+        <div class="card-header py-2">
+            <h6 style="color:#04121f" class="m-0 text-center"><b>Overall Revenue</b></h6>
+        </div>
+        <div class="card-body">
+            <canvas id="combinedChart" style="width:100%; height:215px;"></canvas>
+        </div>
+    </div>
+                         <!--   <div class="card shadow cardb" role="button">
+                                <div class="card-header py-2">
+                                    <h6 style="color:#04121f" class="m-0  "><b>Carry-In Monthwise Revenue </b><span
+                                            class="text-primary float-right"><b>( To be Collected: Rs. <span
+                                                id="tobecollectedcarry"></span> )</b></span></h6>
+                                </div>
+                                <div class="card-body">
+								
+													<canvas id="myChart1" style="width:100%; height:200px;"></canvas>
+                                                  </div>
+							</div>-->
+                        </div><div class="col-lg-3 mb-4">
+			<div class="card shadow cardb" role="button">
+				<div class="card-header py-2">
+                                    <h6 style="color:#04121f" class="m-0 text-center"><b>Supplierwise Products</b></h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body" style="height:250px; overflow-y:auto">
+								<table class="table bg-bgcolor text-white">
+								<tr>
+								<th>Supplier Name</th>
+								<th>Total</th>
+								<th>To be Sent</th>
+								<th>Sent</th>
+								<th>Received</th>
+								</tr>
+                                   	
+		</table>
+			</div>
+				
+				</div>
+				</div>
+				
+				
+				
+				
+				
+				
+				
+				<div class="col-lg-4 mb-4">
+			<div class="card shadow cardb" role="button">
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Customer Dashboard</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">	 <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv">
+				<div>
+				<a href="warrantycustomersall.php"><span  class="mb-0 text-dark"><b>Warranty Customers</b></span></a>
+				<h4 class="mb-2 text-info1">1552</h4>
+                   
+				</div>
+				<div class="widgets-icons-info1 ms-auto" >
+		<i class="bx bx-check"></i>
+		</div>
+				
+	</div>
+      </div>
+  </div>
+      </div>
+							  
+		  <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="amccustomers.php"><span  class="mb-0 text-dark"><b>AMC Customers</b></span></a>
+				    <h4 class="mb-2 text-info2">62</h4>
+				   </div>
+				<div class="widgets-icons-info2 ms-auto" >
+		<i class="bx bx-check"></i>
+		</div>
+				  
+				   </div>
+          </div>
+        </div>
+               
+      </div>
+						 
+	  <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+				<div> 
+                <a href="mapcustomers.php"><span class="mb-0 text-dark"><b>Customer Population Map</b></span></a>
+			</div>
+				<div class="widgets-icons-danger2 ms-auto" >
+		<i class="bx bxs-map-pin"></i>
+		</div>
+				              
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		     <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-success1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv2">
+			   <div>
+                  <a href="warrantycustomersexpired.php"><span  class="mb-0 text-dark"><b>Warrranty Expired Customers</b></span></a>
+				   <h4 class="mb-2 text-success1">2691</h4> 
+				   </div>
+				                  
+				   <div class="widgets-icons-success1 ms-auto" >
+		<i class="bx bx-notification"></i>
+		</div>
+		
+            </div>
+          </div>
+        </div>
+	
+      </div>
+	  
+   <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-success2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv5">
+				<div>
+				  <a href="amcexpiredcustomers.php"><span  class="mb-0 text-dark"><b>AMC Expired Customers</b></span></a>
+				  <h4 class="mb-2 text-success2">310</h4> 
+				</div>
+				<div class="widgets-icons-success2 ms-auto" >
+		<i class="bx bx-notification"></i>
+		</div>
+				   </div>
+          </div>
+        </div> 
+     
+				  
+           
+      </div> 
+	   	  <div class="col-xl-4 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-danger1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv5">
+				<div>
+				  <a href="consignee.php"><span  class="mb-0 text-dark"><b>Customers Details</b></span></a>
+				  <h4 class="mb-2 text-danger1">17339</h4> 
+				</div>
+				<div class="widgets-icons-danger1 ms-auto" >
+		<i class="bx bx-notification"></i>
+		</div>
+				   </div>
+          </div>
+        </div> 
+     
+				  
+           
+      </div>
+  
+       
+	   
+    
+	  	
+		
+		
+		
+		
+       
+		
+	  
+        </div>
+      </div>
+		
+	</div>
+</div>
+
+
+<div class="col-lg-4 mb-4">
+			<div class="card shadow cardb" role="button">
+				<div class="card-header py-2">
+				  <h6 style="color:#04121f" class="m-0 text-center"><b>Engineer Dashboard</b></h6>
+				</div>
+				<div class="card-statistic-3 p-3" style="padding-bottom:0px !important">		
+				<div class="row">
+	
+				<!--<div class="col-xl-2 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-green2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="currentlocation.php"><span  class="mb-0 text-dark"><b>Engineer TA/DA Report</b></span></a>
+				   
+				   </div>
+				<div class="widgets-icons-green2 ms-auto" >
+		<i class="bx bx-trip"></i>
+		</div>
+				  
+				   </div>
+          </div>
+        </div>-->
+		
+          <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-warning2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="dailyengreport.php"><span  class="mb-0 text-dark"><b>Engineer Report</b></span></a>
+				   
+				   </div><div class="widgets-icons-warning2 ms-auto" >
+		<i class="bx bxs-report"></i>
+		</div>
+				
+				  
+				   </div>
+          </div>
+        </div>
+               
+      </div> 
+	  <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-express2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv3">
+			   <div>
+                   <a href="dailyattendance.php"><span  class="mb-0 text-dark"><b>Engineer Attendance</b></span></a>
+				   
+				   </div>
+				<div class="widgets-icons-express2 ms-auto" >
+		<i class="bx bxs-face"></i>
+		</div>
+				  
+				   </div>
+          </div>
+        </div>
+               
+      </div>
+   <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-pink1">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center" id="myDiv">
+				<div>
+				<a href="dareport.php"><span  class="mb-0 text-dark"><b>Engineer DA / TA Report</b></span></a>
+				</div><div class="widgets-icons-pink1 ms-auto" >
+		<i class="bx bxs-package"></i>
+		</div>
+	</div>
+      </div>
+  </div>
+     
+    
+      </div>
+       
+	   
+		
+		
+		 <div class="col-xl-6 col-sm-6 mb-4 col-6"> 
+         <div class="card cardnew1 shadow radius-10 border-start border-0 border-3 border-info2">
+            <div class="card-body" style="padding-right:0.2rem">
+			   <div class="d-flex align-items-center">
+		<div>
+					<a href="engrealmap.php"><span class="mb-0 text-dark"><b>Real-Time Engineer Location</b></span></a>
+                  
+				  	
+                     
+ </div><div class="widgets-icons-info2 ms-auto" >
+		<i class="bx bxs-edit-location"></i>
+		</div>
+				 		
+                </div>
+              </div>
+            </div>
+		 
+        </div>
+        </div>
+		
+	</div>
+</div>
+</div>
+	<!--- customer and engineer -->
+
+
+ 
+											<!--div class="col-lg-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-2">
+                                    <h6 style="color:#04121f" class="m-0  ">Service Revenue <span
+                                            class="text-primary float-right">Total: Rs. <span
+                                                id="totalservicerevenue"></span> ( Today: Rs. <span
+                                                id="todayservicerevenue"></span> ) </span></h6>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="myChart" style="width:100%; height:232px;"></canvas>
+                                </div>
+                            </div>
+                        </div-->
+						                  
+				
+				
+
+
+
+<!--for amc revenue-->
+				<!--div class="col-lg-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-2">
+                                    <h6 style="color:#04121f" class="m-0  ">AMC Revenue <span
+                                            class="text-primary float-right">Total: Rs. <span
+                                                id="totalamcrevenue"></span> ( Today: Rs. <span
+                                                id="todayamcrevenue"></span> ) </span></h6>
+                                </div>
+                                <div class="card-body">
+                                    <canvas id="myCharta" style="width:100%; height:232px;"></canvas>
+                                </div>
+                            </div>
+                        </div-->
+						                    
+				
+					
+        <div class="col-lg-2">
+
+             
+            <div class="card shadow cardb mb-4">
+                <div class="card-header py-2">
+                    <h6 style="color:#04121f" class="m-0  "><b>Reminders</b>
+										<a href="reminder.php" class="float-right"><b>Go
+                            to Reminder</b></a>
+														</h6>
+                </div>
+                <div class="card-body">
+									  <marquee width="100%" direction="up" height="194px" scrollamount="3" onmouseover="this.stop();"
+                        onMouseOut="this.start();">
+                        <ul class="todo-list ui-sortable drag-me">
+                                                    </ul>
+                    </marquee>
+                                    
+                </div>
+				
+            </div>
+        </div>
+        
+		     <!--   <div class="col-lg-3">
+
+             
+            <div class="card shadow cardb mb-4">
+                <div class="card-header py-2">
+                    <h6 style="color:#04121f" class="m-0   text-center"><b>Engineers Calls</b></h6>
+                </div>
+                <div class="card-body">
+                    <ul class="todo-list ui-sortable" style="height:232px">
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=15&attdate=2024-05-25">JAYASANKAR</a></span>
+                            <span class="text-dark float-right">1</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=36&attdate=2024-05-25">K. SAKTHIVEL</a></span>
+                            <span class="text-dark float-right">3</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=31&attdate=2024-05-25">K.RAMESH</a></span>
+                            <span class="text-dark float-right">1</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=2&attdate=2024-05-25">N.MURUGAN</a></span>
+                            <span class="text-dark float-right">3</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=8&attdate=2024-05-25">SARAVANAN.P</a></span>
+                            <span class="text-dark float-right">2</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=22&attdate=2024-05-25">THANGARAJ</a></span>
+                            <span class="text-dark float-right">2</span>
+                        </li>
+                                                <li class="text-danger">
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=19&attdate=2024-05-25">THAVASELVAN</a></span>
+                            <span class="text float-right">0</span>
+                        </li>
+                                                <li>
+                            <span class="text"><a
+                                    href="mapengineerview.php?id=25&attdate=2024-05-25">THILAKARAJ.R</a></span>
+                            <span class="text-dark float-right">3</span>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>-->
+		<!-- <div class="col-lg-3">
+
+             
+            <div class="card shadow cardb mb-4">
+                <div class="card-header py-2">
+                    <h6 style="color:#04121f" class="m-0   text-center"><b>Customer Search Ratio</b>&nbsp;<i class="fa fa-info-circle" data-toggle="tooltip" title="Call Assigned / Total Customer Search"></i></h6>
+                </div>
+               
+<div class="card-body">
+
+    <ul class="todo-list ui-sortable" style="height: 232px">
+                    <li>
+                <span class="text"><a
+                                    href="mapengineerview.php?id=8&attdate=2024-05-25">SARAVANAN.P</a></span>
+				
+                <span class="text-dark float-right">100.00%</span>&nbsp; 
+				<span style="float: right;right: 20px;position: relative;top: 0;" > 1/1</span>
+				
+                
+            </li>
+                </ul>
+</div>
+
+            </div>
+        </div>-->
+		<div class="col-lg-2">
+
+             
+            <div class="card shadow cardb mb-4">
+                <div class="card-header py-2">
+                    <h6 style="color:#04121f" class="m-0  "><b>Updates / Announcements</b>
+					
+										<a href="updates.php" class="float-right"><b>Updates</b></a>
+												</h6>
+                </div>
+                <div class="card-body">
+				
+									    <marquee width="100%" direction="up" height="178px" scrollamount="3" onmouseover="this.stop();"
+                        onMouseOut="this.start();">
+                        <ul class="todo-list ui-sortable drag-me">
+                                                    </ul>
+                    </marquee>
+                  

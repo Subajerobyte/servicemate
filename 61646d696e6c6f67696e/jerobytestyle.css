@@ -1,0 +1,32 @@
+.bg-primary
+{
+	background-color: #363435!important;
+}
+.sidebar-brand
+{
+	background-color: #363435!important;
+}
+.btn-primary
+{
+	color: #fff;
+    background-color: #363435 !important;
+    border-color: #363435 !important;
+}
+.btn-primary:hover
+{
+	color: #fff;
+    background-color: #f25a38 !important;
+    border-color: #f25a38 !important;
+}
+.sidebar-dark .nav-item.active .nav-link, .sidebar-dark .nav-item.active .nav-link i
+{
+	color: #f25a38 !important;
+}
+.card
+{
+	border-radius: 0rem;
+}
+.text-primary
+{
+	color: #f25a38 !important;
+}
