@@ -1,0 +1,7 @@
+
+I. Files modified by Gayathri for inserting tid in (insert and update)query.
+
+
+1.profiles.php
+2.callackn.php
+

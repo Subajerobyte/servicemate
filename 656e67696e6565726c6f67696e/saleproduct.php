@@ -1,0 +1,289 @@
+<?php
+include('lcheck.php'); 
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title><?=$_SESSION['companyname']?> - Jerobyte - Sales Product Details</title>
+
+  
+  <link href="../../1637028036/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"><meta name="theme-color" content="#3d8eb9">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  
+  <link href="../../1637028036/css/aarkayen-jrc-2.min.css" rel="stylesheet"> <?php include('../../gstag.php'); ?> <link rel="stylesheet" href="../../1637028036/vendor/jquery-ui/jquery-ui.css" />
+  <link href="../../1637028036/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <style>
+table tbody tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+@media screen and (max-width: 600px) 
+{
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 1em;
+  }
+  
+  
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+</style>
+</head>
+
+<body id="page-top">
+
+  
+  <div id="wrapper">
+
+    
+    <?php include('sidebar.php');?>
+    
+
+    
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      
+      <div id="content">
+
+        
+          <?php include('navbar.php');?>
+        
+
+        
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-1">
+            <h1 class="h4 mb-2 mt-2 text-gray-800">Sales Product Details</h1>
+          </div>
+		  <?php
+if(isset($_GET['remarks']))
+{
+?>	
+<div class="col-lg-12 mb-2">
+                  <div class="card bg-success text-white shadow">
+                    <div class="card-body">
+                      <?=$_GET['remarks']?>
+                    </div>
+                  </div>
+                </div>
+<?php
+}
+ if(isset($_GET['error']))
+{
+?>	 
+  <div class="col-lg-12 mb-2">
+                  <div class="card bg-danger text-white shadow">
+                    <div class="card-body">
+                     <?=$_GET['error']?>
+                    </div>
+                  </div>
+                </div>
+<?php
+}
+?>
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Sales Product Details</h6>
+            </div>
+            <div class="card-body">
+			
+              <div class="table-responsive">
+                <table class="table table-bordered font-13" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>S.No</th>
+                      <th>Sales Product</th>
+					  <th>Component</th>
+					  <th>Make</th>
+                      <th>Description</th>
+                      <th>Warranty</th>
+					  <th>Selling Price</th>
+                      <th>Minimum Selling Price</th>
+                      <th>Sale GST %</th>
+                      <th>Installation Charges</th>
+					  <th>Scrap Value</th>
+					  <th>AMC Value</th>
+					  <th>AMC GST %</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+				  <?php
+				  $sqlselect = "SELECT * From jrcproduct where stockitem!='' and price!='' order by stockitem asc";
+				  
+        $queryselect = mysqli_query($connection, $sqlselect);
+        $rowCountselect = mysqli_num_rows($queryselect);
+         
+        if(!$queryselect){
+           die("SQL query failed: " . mysqli_error($connection));
+        }
+         
+        if($rowCountselect > 0) 
+		{
+			$count=1;
+			while($rowselect = mysqli_fetch_array($queryselect)) 
+			{
+			?>
+                    <tr>
+                      <td data-label="S.No"><?=$count?></td>
+    				  <td data-label="Stock Item"><?=$rowselect['stockitem']?></td>
+					  <td data-label="Component Type"><?=$rowselect['componenttype']?></td>
+					  <td data-label="Make"><?=$rowselect['make']?></td>
+                      <td data-label="Description"><?=$rowselect['description']?></td>
+                      <td data-label="Warranty"><?=$rowselect['warranty']?></td>
+					  <td data-label="Selling Price"><?=$rowselect['price']?></td>
+                      <td data-label="Minimum Selling Price"><?=$rowselect['minprice']?></td>
+                      <td data-label="GST %"><?=$rowselect['gst']?></td>
+                      <td data-label="Installation Cost"><?=$rowselect['installvalue']?></td>
+					  <td data-label="Scrap Value"><?=$rowselect['scrapvalue']?></td>
+					  <td data-label="AMC Value"><?=$rowselect['amcvalue']?></td>
+                      <td data-label="AMC GST %"><?=$rowselect['amcgst']?></td>
+					  
+					</tr>
+					<?php
+					$count++;
+			}
+		}
+			?>
+					
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+         
+
+      </div>
+       
+
+       
+      <?php include('footer.php'); ?>
+       
+
+    </div>
+     
+
+  </div>
+   
+
+   
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a><a class="scroll-to-bottom rounded" href="#page-bottom"><i class="fas fa-angle-down"></i></a><a class="scroll-to-back rounded" href="javascript:history.go(-1)"><i class="fas fa-angle-left"></i></a>
+
+   
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="../logout.php">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="../../1637028036/vendor/jquery/jquery.min.js"></script>
+  <script src="../../1637028036/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  
+  <script src="../../1637028036/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  
+  <script src="../../1637028036/js/aarkayen-jrc-2.min.js"></script><script src="notification.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="../../1637028036/vendor/chart.js/Chart.min.js"></script> <script src="../../1637028036/vendor/chart.js/chartjs-plugin-labels.js"></script>
+
+
+  <!-- Page level plugins -->
+  <script src="../../1637028036/vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="../../1637028036/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="../../1637028036/js/datatables.js"></script>
+<script src="../../1637028036/vendor/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+     $( "#topsearch" ).autocomplete({
+       source: 'topsearch.php', select: function (event, ui) { $("#topsearch").val(ui.item.value); $("#topsearchid").val(ui.item.id);}, minLength: 3
+     });
+$( "#topsearch1" ).autocomplete({
+       source: 'topsearch.php', select: function (event, ui) { $("#topsearch1").val(ui.item.value); $("#topsearchid1").val(ui.item.id);}, minLength: 3
+     });
+  });
+</script>
+<script>
+window.setMobileTable = function(selector) {
+  // if (window.innerWidth > 600) return false;
+  const tableEl = document.querySelector(selector);
+  const thEls = tableEl.querySelectorAll('thead th');
+  const tdLabels = Array.from(thEls).map(el => el.innerText);
+  tableEl.querySelectorAll('tbody tr').forEach( tr => {
+    Array.from(tr.children).forEach( 
+      (td, ndx) =>  td.setAttribute('label', tdLabels[ndx])
+    );
+  });
+}
+</script>
+</body>
+
+</html>

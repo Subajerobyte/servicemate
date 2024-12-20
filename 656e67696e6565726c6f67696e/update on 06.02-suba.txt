@@ -1,0 +1,13 @@
+
+I. Files modified by Gayathri for inserting tid in (insert and update)query.
+
+
+1.complaintbef.php
+2.callstartlocation.php
+3.callendlocation.php
+4.serialupdates,php
+
+II.jrcalldetails table modified by keerthi and following existing files modified.
+
+5.complaint.php
+6.complaintadds.php
